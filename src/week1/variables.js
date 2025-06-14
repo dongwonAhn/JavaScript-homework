@@ -25,3 +25,6 @@ let commentCount = 12
 
 // 8. "현재 페이지 번호(예: 3)"를 담는 변수를 작성하고 적절한 값을 할당하세요.
 let currentPage = 3
+
+// 9. "회원 등급('VIP', '골드', '실버' 중 하나)"을 담는 변수를 작성해보세요.
+let membershipLevel = "VIP"
