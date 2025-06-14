@@ -30,3 +30,33 @@ function getDiscountedPrice(originalPrice, discountPercent) {
   return Math.round(originalPrice * (1 - discountPercent / 100))
 }
 console.log(getDiscountedPrice(18700, 20))
+
+// 5. 점수를 전달받아 점수, 등급과 설명을 포함한 객체를 반환하는 함수를 작성합니다.
+function getGrade(score) {
+  let grade = ''
+  let description = ''
+
+  if (score >= 90) {
+    grade = 'A'
+    description = '매우 우수'
+  } else if (score >= 80) {
+    grade = 'B'
+    description = '우수'
+  } else if (score >= 70) {
+    grade = 'C'
+    description = '보통'
+  } else if (score >= 60) {
+    grade = 'D'
+    description = '미달, 통과 기준 근접'
+  } else {
+    grade = 'F'
+    description = '낙제'
+  }
+
+  return {
+    score,
+    grade,
+    description
+  }
+}
+console.log(getGrade(87))
