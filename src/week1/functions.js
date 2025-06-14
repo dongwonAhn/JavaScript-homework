@@ -13,3 +13,14 @@ const calculateOriginalPrice = function(priceWithTax) {
   return Math.round(priceWithTax / 1.033)
 }
 console.log(calculateOriginalPrice(10330))
+
+// 3. 신분증의 나이를 확인해 주류 구매 가능 여부를 반환하는 함수를 작성합니다.
+const registrationCard = {
+  name: "동원",
+  age: 18,
+  gender: "남"
+}
+const canSellAlcohol = (registrationCard) => {
+  return registrationCard.age >= 19
+}
+console.log(canSellAlcohol(registrationCard))
