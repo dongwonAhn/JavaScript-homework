@@ -10,3 +10,6 @@ const absoluteZero = -273.15
 
 // 3. "로그인 여부"를 확인하는 불리언 타입 변수을 선언하고 적절한값을 할당하세요.
 let isLoggedIn = true
+
+// 4. "사용자 나이" 변수를 선언하고 숫자 값을 할당하세요.
+let myAge = 26
