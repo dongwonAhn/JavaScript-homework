@@ -13,3 +13,6 @@ let isLoggedIn = true
 
 // 4. "사용자 나이" 변수를 선언하고 숫자 값을 할당하세요.
 let myAge = 26
+
+// 5. "상품 가격(예: 39,900원)"을 담는 변수를 작성하세요.
+let productPrice = 39900
