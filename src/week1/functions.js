@@ -24,3 +24,9 @@ const canSellAlcohol = (registrationCard) => {
   return registrationCard.age >= 19
 }
 console.log(canSellAlcohol(registrationCard))
+
+// 4. 판매가와 할인 비율(%)을 입력 받아, 할인가를 반환하는 함수를 작성합니다.
+function getDiscountedPrice(originalPrice, discountPercent) {
+  return Math.round(originalPrice * (1 - discountPercent / 100))
+}
+console.log(getDiscountedPrice(18700, 20))
