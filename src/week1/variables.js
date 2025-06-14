@@ -28,3 +28,6 @@ let currentPage = 3
 
 // 9. "회원 등급('VIP', '골드', '실버' 중 하나)"을 담는 변수를 작성해보세요.
 let membershipLevel = "VIP"
+
+// 10. "버튼이 클릭되었는지 여부"를 담는 변수를 선언하고 불리언 타입 값을 설정하세요.
+let isButtonClicked = false
