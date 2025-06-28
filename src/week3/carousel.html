@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="추천 게임을 소개하는 페이지입니다. 다양한 장르의 인기 게임들을 슬라이드로 만나보세요!"
+    />
+    <title>캐러셀</title>
+    <link rel="icon" href="./image/game.png" />
+    <link rel="stylesheet" href="./carousel.css" />
+  </head>
+  <body>
+    <section class="carousel">
+      <!-- 상단 영역 -->
+      <div class="carousel__top">
+        <a href="#" class="title-link">
+          <div class="title-layout">
+            <img
+              src="./image/game.png"
+              alt="게임 아이콘"
+              width="24"
+              height="24"
+            />
+            <span class="title-text">추천 게임</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="8"
+              height="13"
+              viewBox="0 0 8 13"
+              fill="none"
+              aria-hidden="true"
+            >
+              <path
+                d="M0.75621 0.751054C1.09793 0.416315 1.65182 0.416315 1.99354 0.751054L7.24364 5.89397C7.58535 6.22871 7.58535 6.77129 7.24364 7.10603L1.99354 12.2489C1.65182 12.5837 1.09793 12.5837 0.75621 12.2489C0.414495 11.9142 0.414495 11.3716 0.75621 11.0369L5.38765 6.5L0.75621 1.96312C0.414495 1.62838 0.414495 1.08579 0.75621 0.751054Z"
+                fill="#858585"
+              />
+            </svg>
+          </div>
+        </a>
+      </div>
+
+      <!-- 중단 영역 -->
+      <div class="carousel__content">
+        <!-- 첫 번째 슬라이드 -->
+        <div class="carousel__slide is-active">
+          <a href="#" class="game-card">
+            <div class="image-wrapper">
+              <img src="./image/bg1.png" alt="" class="image-bg" />
+              <img
+                src="./image/1.png"
+                alt="크로노 오디세이 캐릭터"
+                class="image-character"
+              />
+            </div>
+            <strong class="game-title">크로노 오디세이</strong>
+            <span class="game-subtitle">멈춰 있던 시간이 흐른다</span>
+            <span class="game-genre">MMORPG</span>
+          </a>
+
+          <a href="#" class="game-card">
+            <div class="image-wrapper">
+              <img src="./image/bg2.png" alt="" class="image-bg" />
+              <img
+                src="./image/2.png"
+                alt="아키에이지 워 캐릭터"
+                class="image-character"
+              />
+            </div>
+            <strong class="game-title">아키에이지 워</strong>
+            <span class="game-subtitle">시대의 전설을 향해</span>
+            <span class="game-genre">MMORPG</span>
+          </a>
+        </div>
+
+        <!-- 두 번째 슬라이드 -->
+        <div class="carousel__slide">
+          <a href="#" class="game-card">
+            <div class="image-wrapper">
+              <img src="./image/bg3.png" alt="" class="image-bg" />
+              <img
+                src="./image/3.png"
+                alt="붕괴: 스타레일 캐릭터"
+                class="image-character"
+              />
+            </div>
+            <strong class="game-title">패스 오브 엑자일 2</strong>
+            <span class="game-subtitle">얼리 액세스 오픈!</span>
+            <span class="game-genre">핵앤슬래시</span>
+          </a>
+
+          <a href="#" class="game-card">
+            <div class="image-wrapper">
+              <img src="./image/bg4.png" alt="" class="image-bg" />
+              <img
+                src="./image/4.png"
+                alt="우마무스메 캐릭터"
+                class="image-character"
+              />
+            </div>
+            <strong class="game-title">오딘: 발할라 라이징</strong>
+            <span class="game-subtitle">신의 영역을 차지하라</span>
+            <span class="game-genre">MMORPG</span>
+          </a>
+        </div>
+
+        <!-- 세 번째 슬라이드 -->
+        <div class="carousel__slide">
+          <a href="#" class="game-card">
+            <div class="image-wrapper">
+              <img src="./image/bg5.png" alt="" class="image-bg" />
+              <img
+                src="./image/5.png"
+                alt="메이플스토리 캐릭터"
+                class="image-character"
+              />
+            </div>
+            <strong class="game-title">롬: 리멤버 오브 마제스티</strong>
+            <span class="game-subtitle">세계는 하나의 전장이 된다</span>
+            <span class="game-genre">MMORPG</span>
+          </a>
+
+          <a href="#" class="game-card">
+            <div class="image-wrapper">
+              <img src="./image/bg6.png" alt="" class="image-bg" />
+              <img
+                src="./image/6.png"
+                alt="로스트아크 캐릭터"
+                class="image-character"
+              />
+            </div>
+            <strong class="game-title">배틀그라운드</strong>
+            <span class="game-subtitle">최후까지 생존하라!</span>
+            <span class="game-genre">배틀로얄</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- 하단 영역 -->
+      <div class="carousel__bottom">
+        <button class="nav-button" aria-label="이전 페이지">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="41"
+            height="40"
+            viewBox="0 0 41 40"
+            fill="none"
+          >
+            <rect
+              x="-0.5"
+              y="0.5"
+              width="39"
+              height="39"
+              rx="19.5"
+              transform="matrix(-1 0 0 1 39.5 0)"
+              stroke="black"
+              stroke-opacity="0.08"
+            />
+            <path
+              d="M24.207 13.293C23.8165 12.9024 23.1835 12.9024 22.793 13.293L16.793 19.293C16.4024 19.6835 16.4024 20.3165 16.793 20.707L22.793 26.707C23.1835 27.0976 23.8165 27.0976 24.207 26.707C24.5976 26.3165 24.5976 25.6835 24.207 25.293L18.9141 20L24.207 14.707C24.5976 14.3165 24.5976 13.6835 24.207 13.293Z"
+              fill="#474747"
+            />
+          </svg>
+        </button>
+        <span class="page-indicator">
+          <span class="current-page">1</span>
+          <span class="total-page">/ 3</span>
+        </span>
+        <button class="nav-button" aria-label="다음 페이지">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="41"
+            height="40"
+            viewBox="0 0 41 40"
+            fill="none"
+          >
+            <rect
+              x="1"
+              y="0.5"
+              width="39"
+              height="39"
+              rx="19.5"
+              stroke="black"
+              stroke-opacity="0.08"
+            />
+            <path
+              d="M16.793 13.293C17.1835 12.9024 17.8165 12.9024 18.207 13.293L24.207 19.293C24.5976 19.6835 24.5976 20.3165 24.207 20.707L18.207 26.707C17.8165 27.0976 17.1835 27.0976 16.793 26.707C16.4024 26.3165 16.4024 25.6835 16.793 25.293L22.0859 20L16.793 14.707C16.4024 14.3165 16.4024 13.6835 16.793 13.293Z"
+              fill="#474747"
+            />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <script src="./carousel.js"></script>
+  </body>
+</html>
