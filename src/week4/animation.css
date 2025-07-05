@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: "Pretendard", sans-serif;
+  color: #111;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1728px;
+  height: 1118px;
+  margin: 0 auto;
+  padding: 80px 100px;
+  gap: 100px;
+  transform: scale(0.65);
+  transform-origin: top left;
+}
+
+.landing__text {
+  width: 668px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+.caption {
+  color: #b31116;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.headline {
+  color: #b31116;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 86px;
+  font-weight: 100;
+  line-height: 120%;
+}
+
+.headline strong {
+  display: block;
+  font-weight: 700;
+}
+
+.description {
+  color: #1d1316;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 140%;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  margin-top: 12px;
+}
+
+.btn.dark {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 36px;
+  gap: 10px;
+  border-radius: 100px;
+  background: #1d1316;
+
+  color: #fff;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.btn.light {
+  display: inline-flex;
+  align-items: center;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #b31116;
+  background: transparent;
+  padding: 12px 36px;
+}
+
+.landing__graphics {
+  width: 846px;
+  height: 993px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphics-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.line,
+.shape,
+.photo {
+  position: absolute;
+}
+
+.line img,
+.shape img,
+.photo img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.line {
+  z-index: 0;
+}
+.shape,
+.photo {
+  z-index: 1;
+}
+
+.shape-01 {
+  top: 65.85px;
+  left: 565.68px;
+}
+.shape-02 {
+  top: 190.68px;
+  left: 190.89px;
+}
+.shape-03 {
+  top: 689.98px;
+  left: 315.82px;
+}
+.shape-04 {
+  top: 689.98px;
+  left: 190.89px;
+}
+.shape-05 {
+  top: 440.33px;
+  left: 65.96px;
+}
+.shape-06 {
+  top: 814.8px;
+  left: 252.86px;
+}
+.shape-07 {
+  top: 814.8px;
+  left: 190.89px;
+}
+.shape-08 {
+  top: 565.15px;
+  left: 315.82px;
+}
+.shape-09 {
+  top: 315.5px;
+  left: 189.89px;
+}
+.shape-10 {
+  top: 565.15px;
+  left: 190.89px;
+}
+.shape-11 {
+  top: 440.33px;
+  left: 190.89px;
+}
+.shape-12 {
+  top: 190.68px;
+  left: 440.75px;
+}
+.shape-13 {
+  top: 565.15px;
+  left: 565.68px;
+}
+.shape-14 {
+  top: 440.33px;
+  left: 565.68px;
+}
+.shape-15 {
+  top: 315.5px;
+  left: 565.68px;
+}
+.shape-16 {
+  top: 190.68px;
+  left: 565.68px;
+}
+
+.line-01 {
+  top: 191px;
+  left: 41px;
+}
+.line-02 {
+  top: 440.83px;
+  left: 31.48px;
+}
+.line-03 {
+  top: 690.48px;
+  left: 0px;
+}
+.line-04 {
+  top: 28.9px;
+  left: 690.61px;
+}
+.line-05 {
+  top: 0.5px;
+  left: 191.39px;
+}
+.line-06 {
+  top: 122px;
+  left: 440.25px;
+}
+
+.photo {
+  top: 315.5px;
+  left: 315.82px;
+}
