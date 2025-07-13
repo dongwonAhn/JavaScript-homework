@@ -7,9 +7,9 @@
 | 주차   | 과제 내용                        | 회고 링크                                       |
 | ------ | -------------------------------- | ----------------------------------------------- |
 | 1주 차 | 변수/상수 선언 및 함수 작성 과제 | [1주차 회고 보기](./src/md/week1-retrospect.md) |
-| 2주 차 | 아코디언 과제                    |                                                 |
 | 3주 차 | 캐러셀 과제                      | [3주차 회고 보기](./src/md/week3-retrospect.md) |
 | 4주 차 | 애니메이션 과제                  | [4주차 회고 보기](./src/md/week4-retrospect.md) |
+| 5주 차 | iPhone 계산기 과제               | [5주차 회고 보기](./src/md/week5-retrospect.md) |
 
 ## 📁 폴더 구조
 
@@ -31,5 +31,9 @@ src/
 │ ├── animation.css
 │ ├── animation.html
 │ └── animation.js
+├── week5/
+│ ├── calculator.css
+│ ├── calculator.html
+│ └── calculator.js
 
 ```
